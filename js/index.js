@@ -39,7 +39,7 @@ async function findWeather() {
                 <h4>Pressure <span id="Weather-des4">${data.main.pressure} </span></h4>
               </div>
               
-               <div><h5 class="date" id="date"></h5></div>`
+               <span><h5 class="date" id="date"></h5>`
 
               let date=new Date()
                 document.getElementById("date").textContent=` ${putZero(date.getDate())}-${putZero(date.getMonth()+1)}-${date.getFullYear()}`
