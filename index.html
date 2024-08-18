@@ -4,37 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <div class="main">
-        <div class="main-card">
-            <div class="card1">
-                <h1 class="main-head">CHECK WEATHER</h1>
-               <span class="city-name">
-                <input type="text" placeholder="Enter your city"  id="city">
-                <button id="btn" onclick="findWeather()">Check</button>
-               </span>
-               <p id="invalid">
-               </p>
-                
+        <div class="main-body">
+            <div class="main-body-img" id="main-body-img">
+                <img src="./images/pexels-jplenio-2850287.jpg" alt="">
             </div>
-            <div class="card2" id="Weather-details">
-              
+            <div id="content">
+
+            </div>
+            <div class="main-content">
+                <h1 class="head" >WEATHER</h1>
+                <div class="main-content1">
+                    <input type="text" placeholder="Enter City Name" id="city">
+                    <button id="btn" onclick="findWeather()">Check</button>
                 </div>
+               <div id="weather-details">
+               
+               </div>
             </div>
-           
-         
+            <div id="weather-content">
+
+            </div>
+            <div id="tempr">
+            </div>
+
         </div>
-        
     </div>
-
-  
-    
-
-
-
-
 
 
 
@@ -45,10 +43,29 @@
 
 
 
-<!-- <span ><h1>${Math.ceil(data.main.temp-273.15)}°C</h1>
-    <h3>${data.weather[0].main} </h3></span>
-    <span class="date"><h5 class="date" id="date"></h5></span>
-
-
-</div>
-<span ><img src="http://openweathermap.org/img/w/${data.weather[0].icon}.png" alt="icon" id="temp-icon"></span> -->
+ <!-- <table>
+                    <thead>
+                        <tr>
+                            <td>ed</td>
+                            <td>xdf</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ae</td>
+                            <td>asfv</td>
+                        </tr>
+                        <tr>
+                            <td>fsf</td>
+                            <td>fsa</td>
+                        </tr>
+                        <tr>
+                            <td>fs</td>
+                            <td>fa</td>
+                        </tr>
+                        <tr>
+                            <td>aw</td>
+                            <td>er</td>
+                        </tr>
+                    </tbody>
+                </table> -->
